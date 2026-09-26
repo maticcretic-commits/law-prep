@@ -15,6 +15,7 @@
 @media(max-width:560px){.wrap{width:min(100% - 22px,1180px)}.anchor-nav .wrap{gap:7px 14px}.anchor-nav a{font-size:.79rem}.notes-grid,.term-grid{grid-template-columns:1fr}.chapter summary{padding:18px}.chapter-body{padding:0 18px 20px}.hero h1{font-size:2.55rem}.hero p{font-size:1rem}.quick{margin-top:-30px}.quick-grid,.exam-grid,.subject-grid,.resource-grid,.routine{grid-template-columns:1fr}.metric{border-right:0;border-bottom:1px solid var(--line)!important}.metric:last-child{border-bottom:0!important}.section{padding:54px 0}.facts{grid-template-columns:1fr}.bar-row{grid-template-columns:100px 1fr 42px}.roadmap{grid-template-columns:1fr}.phase{display:block}.month{padding-bottom:5px;border:0}.phase-content{padding:0 0 24px 18px;margin-bottom:18px}.search{display:block}.search .btn{margin-top:8px}.quiz-foot{align-items:flex-start;gap:10px;flex-direction:column}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.link-card{transition:none}}
 </style>
+<link rel="stylesheet" href="assets/topics.css">
 </head>
 <body>
 <section class="hero">
@@ -158,6 +159,17 @@
 })();
 </script>
 
+<!-- ==================== #topics — topic library (study material) ==================== -->
+<section class="topic-lib-sec" id="topics" aria-label="Study material by topic">
+<div style="max-width:1180px;margin:0 auto;padding:0 20px">
+<p class="tl-kicker">Study material</p>
+<h2 class="tl-h2">Learn it topic by topic</h2>
+<p class="tl-sub">Every card below opens a full study page for that topic — a plain-language explanation, key facts and tables, diagrams, and quick-revision questions with answers. The practice papers at the end are full timed mocks with instant scores and complete answer keys. Everything runs in your browser; nothing is sent anywhere.</p>
+<div id="topic-lib"></div>
+</div>
+</section>
+<script src="assets/topics-law.js"></script>
+<script src="assets/topics.js"></script>
 <section class="eph-comments" id="comments" aria-label="Comments and suggestions">
   <h2>Comments &amp; suggestions</h2>
   <p class="eph-comments-note">Spotted a mistake, an outdated date, or a missing topic? Leave a comment below &mdash; it helps improve this page for everyone.</p>
